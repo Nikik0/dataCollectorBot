@@ -18,6 +18,7 @@ func main() {
 		logger.Fatal("Failed to get config")
 	}
 	setConfigSettings(config)
+
 }
 
 func setConfigSettings(conif *configuration.Config) {
